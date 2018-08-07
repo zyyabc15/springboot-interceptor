@@ -54,6 +54,12 @@ spring:
       enabled: true
 
 
+
+  #区分环境
+  profiles:
+    active: prod
+
+
 #设置重启的目录
 #spring.devtools.restart.additional-paths: src/main/java
 #classpath目录下的WEB-INF文件夹内容修改不重启
