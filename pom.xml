@@ -79,6 +79,16 @@
 			<artifactId>spring-test</artifactId>
 			<version>RELEASE</version>
 		</dependency>
+		<!--引用AOP-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.7</version>
+		</dependency>
 	</dependencies>
 
 	<build>
